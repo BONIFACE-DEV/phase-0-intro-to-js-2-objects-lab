@@ -18,7 +18,7 @@ describe('employees', function() {
     it('it does not modify the original employee, but rather returns a clone with the new data', function () {
       updateEmployeeWithKeyAndValue(employee, 'streetAddress', '11 Broadway');
 
-      expect(employee['streetAddress']).to.equal(undefined);
+      expect(employee['streetAddress']).to.equal();
     });
   });
 
