@@ -1,5 +1,5 @@
 const employee ={
-    name:"Boniface",streetAdress:""
+    name:"Boniface",streetAdress:"eldy"
 }
 function updateEmployeeWithKeyAndValue (employee, key, value) {
     return{...employee, ...{[key]:value} };
